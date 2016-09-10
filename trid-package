@@ -18,7 +18,7 @@ ARCH="$(uname -m)"
 
 if [[ "$ARCH" == "x86_64" ]]; then
     URL="http://mark0.net/download/trid_linux_64.zip"
-elif [[ "$ARCH" =~ "i?86" ]]; then
+elif [[ "$ARCH" =~ i?86 ]]; then
     URL="http://mark0.net/download/trid_linux.zip"
 fi
 

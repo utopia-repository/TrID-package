@@ -4,9 +4,9 @@ The `trid-package` utility automatically downloads and builds a Debian/Ubuntu (.
 
 ## License
 
-This downloader utility is licensed under MIT/Expat (see [LICENSE](LICENSE).
+This downloader utility is licensed under MIT/Expat (see [LICENSE](LICENSE)).
 
-However, TrID itself (and thus the generated .deb's) are *not* DFSG-free. The license of TrId is as follows:
+However, TrID itself (and thus the generated .deb's) are *not* DFSG-free. The license of TrID is as follows:
 
 ```
 License:

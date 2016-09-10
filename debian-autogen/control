@@ -1,0 +1,38 @@
+Source: trid-autobuilt
+Section: non-free/utils
+Priority: optional
+Maintainer: James Lu <bitflip3@gmail.com>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.8
+Homepage: http://mark0.net/soft-trid-e.html
+
+Package: trid
+Architecture: amd64 i386
+Depends: ${shlibs:Depends}, ${misc:Depends}, trid-triddefs
+Description: Automatically build packages of TrID
+ TrID is an utility designed to identify file types from their binary
+ signatures. While there are similar utilities with hard coded logic, TrID has
+ no fixed rules. Instead, it's extensible and can be trained to recognize new
+ formats in a fast and automatic way.
+ .
+ TrID is freeware for non-commercial, personal, research and educational use.
+ Those wishing to use TrID or its definitions for commercial purposes must
+ contact the author (see copyright file).
+ .
+ This package provides the TrID binary.
+
+Package: trid-triddefs
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: trid
+Description: Automatically build packages of TrID
+ TrID is an utility designed to identify file types from their binary
+ signatures. While there are similar utilities with hard coded logic, TrID has
+ no fixed rules. Instead, it's extensible and can be trained to recognize new
+ formats in a fast and automatic way.
+ .
+ TrID is freeware for non-commercial, personal, research and educational use.
+ Those wishing to use TrID or its definitions for commercial purposes must
+ contact the author (see copyright file).
+ .
+ This package provides definitions for the TrID utility.

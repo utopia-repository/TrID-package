@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Make TrID look for definitions in its own subfolder in /usr/lib.
+/usr/lib/trid/trid $@

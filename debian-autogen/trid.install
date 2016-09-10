@@ -1,0 +1,2 @@
+trid usr/lib/trid
+debian/wrapper/trid usr/bin

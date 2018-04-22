@@ -21,4 +21,4 @@ TrID's definitions and contained informations.
 - unzip
 - wget
 - gpg (for signature verification)
-- The Debian packaging toolchain (devscript, dpkg-deb)
+- The Debian packaging toolchain (devscript, dpkg-dev)

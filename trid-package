@@ -8,8 +8,7 @@ CURDIR="$(pwd)"
 SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 cd "$SCRIPT_DIR"
 
-for PROGRAM
-in "unzip" "wget" "gpg" "dpkg-buildpackage" "dch"; do
+for PROGRAM in "unzip" "wget" "gpg" "dpkg-buildpackage" "dch"; do
     echo -n "Checking for $PROGRAM: "
     command -v "$PROGRAM" || { echo "$PROGRAM is required but was not found, aborting."; exit 1; }
 done

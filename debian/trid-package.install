@@ -1,0 +1,4 @@
+debian-autogen/ usr/share/trid-package
+trid-package usr/share/trid-package
+*.asc usr/share/trid-package
+debian/wrapper/trid-package usr/bin

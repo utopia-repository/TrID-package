@@ -1,0 +1,25 @@
+Source: trid-package
+Section: contrib/utils
+Priority: optional
+Maintainer: James Lu <james@overdrivenetworks.com>
+Build-Depends: debhelper (>= 11~)
+Standards-Version: 4.1.4
+Homepage: https://github.com/utopia-repository/TrID-package
+Vcs-Git: https://github.com/utopia-repository/TrID-package
+Vcs-Browser: https://github.com/utopia-repository/TrID-package
+
+Package: trid-package
+Architecture: all
+Depends: ${misc:Depends}, devscripts, dpkg-dev, wget, unzip
+Description: Automatically build packages of TrID
+ TrID is an utility designed to identify file types from their binary
+ signatures. While there are similar utilities with hard coded logic, TrID has
+ no fixed rules. Instead, it's extensible and can be trained to recognize new
+ formats in a fast and automatic way.
+ .
+ TrID is freeware for non-commercial, personal, research and educational use.
+ Those wishing to use TrID or its definitions for commercial purposes must
+ contact the author (see copyright file).
+ .
+ This package provides a downloader script (trid-package) which generates a
+ package for the newest upstream release.

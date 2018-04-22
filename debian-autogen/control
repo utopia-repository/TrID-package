@@ -1,9 +1,9 @@
 Source: trid-autobuilt
 Section: non-free/utils
 Priority: optional
-Maintainer: James Lu <bitflip3@gmail.com>
-Build-Depends: debhelper (>=9)
-Standards-Version: 3.9.8
+Maintainer: Utopia Repository Auto-builders <webmaster@overdrivenetworks.com>
+Build-Depends: debhelper (>= 10~)
+Standards-Version: 4.1.4
 Homepage: http://mark0.net/soft-trid-e.html
 
 Package: trid

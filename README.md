@@ -1,6 +1,6 @@
 # TrID-package
 
-The `trid-package` utility automatically downloads and builds a Debian/Ubuntu (.deb) package for the latest upstream version of [TrID](mark0.net/soft-trid-e.html).
+The `trid-package` utility automatically downloads and builds a Debian/Ubuntu (.deb) package for the latest upstream version of [TrID](http://mark0.net/soft-trid-e.html).
 
 ## License
 

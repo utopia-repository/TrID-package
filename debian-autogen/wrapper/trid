@@ -1,4 +1,6 @@
 #!/bin/sh
 
 # Make TrID look for definitions in its own subfolder in /usr/lib.
-/usr/lib/trid/trid $@
+# 2018-04-22: force LANG=C to work around assertion failure:
+# "trid: loadlocale.c:129: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed."
+env LANG=C /usr/lib/trid/trid $@

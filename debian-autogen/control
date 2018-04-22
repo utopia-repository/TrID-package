@@ -9,7 +9,7 @@ Homepage: http://mark0.net/soft-trid-e.html
 Package: trid
 Architecture: amd64 i386
 Depends: ${shlibs:Depends}, ${misc:Depends}, trid-triddefs
-Description: Automatically build packages of TrID
+Description: file type identifier
  TrID is an utility designed to identify file types from their binary
  signatures. While there are similar utilities with hard coded logic, TrID has
  no fixed rules. Instead, it's extensible and can be trained to recognize new
@@ -25,7 +25,7 @@ Package: trid-triddefs
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: trid
-Description: Automatically build packages of TrID
+Description: file type identifier - definition files
  TrID is an utility designed to identify file types from their binary
  signatures. While there are similar utilities with hard coded logic, TrID has
  no fixed rules. Instead, it's extensible and can be trained to recognize new

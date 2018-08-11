@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define script version
-VERSION=0.2
+VERSION=0.2.1
 
 CURDIR="$(pwd)"
 
@@ -45,9 +45,9 @@ echo "Extracting trid binary package."
 unzip ../trid_linux.zip -d .
 chmod +x ./trid
 
-TRID_VERSION="$(LANG=C trid -? 2>&1 | grep -Eo 'v[0-9]+\.[0-9]+' | cut -c 2-)"
+TRID_VERSION="$(LANG=C ./trid -? 2>&1 | grep -Eo 'v[0-9]+\.[0-9]+' | cut -c 2-)"
 retval=$?
-if [ $retval -eq 1 ]; then
+if [[ $retval -eq 1 || -z "$TRID_VERSION" ]]; then
     echo "Failed to obtain trid version."
 	exit $retval
 fi

@@ -1,3 +1,9 @@
+trid-package (0.2.1~utopia1) unstable; urgency=medium
+
+  * Fix trid version detection using the wrong binary path
+
+ -- James Lu <james@overdrivenetworks.com>  Sat, 18 Aug 2018 22:41:05 -0700
+
 trid-package (0.2~utopia1) unstable; urgency=low
 
   * Initial release.
